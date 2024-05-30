@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="SignIn">Sign In</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="app_name">Batikku</string>
+    <string name="email">Email</string>
+    <string name="gcm_defaultSenderId" translatable="false">837398942736</string>
+    <string name="google_api_key" translatable="false">AIzaSyAwUFqH0N-ZssWOLC9qRGnvz0ziUril2tc</string>
+    <string name="google_app_id" translatable="false">1:837398942736:android:56fbdc4cee8688d99f2695</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAwUFqH0N-ZssWOLC9qRGnvz0ziUril2tc</string>
+    <string name="google_storage_bucket" translatable="false">batikku-4cbdb.appspot.com</string>
+    <string name="password">Password</string>
+    <string name="project_id" translatable="false">batikku-4cbdb</string>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Base.Theme.Batikku" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Batikku" parent="Base.Theme.Batikku"/>
+</resources>

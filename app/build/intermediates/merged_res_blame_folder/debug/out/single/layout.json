@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-38:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-41:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-38:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-41:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-38:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-41:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-38:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-41:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "com.example.batikku.app-mergeDebugResources-38:/layout/activity_register.xml",
+        "source": "com.example.batikku.app-main-41:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.batikku.app-mergeDebugResources-38:/layout/activity_login.xml",
+        "source": "com.example.batikku.app-main-41:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-38:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-41:\\layout\\activity_main.xml"
+    }
+]
