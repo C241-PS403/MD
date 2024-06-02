@@ -1,12 +1,12 @@
-#Fri May 31 00:36:17 WIB 2024
-base.0=C\:\\Users\\Raiha\\AndroidStudioProjects\\MD1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Raiha\\AndroidStudioProjects\\MD1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Raiha\\AndroidStudioProjects\\MD1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\Raiha\\AndroidStudioProjects\\MD1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.4=C\:\\Users\\Raiha\\AndroidStudioProjects\\MD1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.5=C\:\\Users\\Raiha\\AndroidStudioProjects\\MD1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.6=C\:\\Users\\Raiha\\AndroidStudioProjects\\MD1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.7=C\:\\Users\\Raiha\\AndroidStudioProjects\\MD1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Sun Jun 02 18:11:05 ICT 2024
+base.0=C\:\\Users\\User\\AndroidStudioProjects\\MD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\User\\AndroidStudioProjects\\MD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\User\\AndroidStudioProjects\\MD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=C\:\\Users\\User\\AndroidStudioProjects\\MD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Users\\User\\AndroidStudioProjects\\MD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.5=C\:\\Users\\User\\AndroidStudioProjects\\MD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.6=C\:\\Users\\User\\AndroidStudioProjects\\MD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.7=C\:\\Users\\User\\AndroidStudioProjects\\MD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex
