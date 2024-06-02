@@ -7,6 +7,7 @@ import android.widget.Toast
 import com.example.batikku.R
 import com.example.batikku.databinding.ActivityLoginBinding
 import com.example.batikku.view.main.MainActivity
+import com.example.batikku.view.register.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
@@ -20,7 +21,13 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.signupButton.setOnClickListener {
+        firebaseAuth = FirebaseAuth.getInstance()
+        binding.Signuptv.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.signin.setOnClickListener {
             val email = binding.emailEditText.text.toString()
             val pass = binding.passwordEditText.text.toString()
 
@@ -48,9 +55,6 @@ class LoginActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
 
-        if (firebaseAuth.currentUser != null) {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
         }
     }
-}
+

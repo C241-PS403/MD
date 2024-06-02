@@ -1373,6 +1373,7 @@ int color bright_foreground_inverse_material_dark 0x7f050024
 int color bright_foreground_inverse_material_light 0x7f050025
 int color bright_foreground_material_dark 0x7f050026
 int color bright_foreground_material_light 0x7f050027
+int color brown 0x7f050316
 int color browser_actions_bg_grey 0x7f050028
 int color browser_actions_divider_color 0x7f050029
 int color browser_actions_text_color 0x7f05002a
@@ -3011,6 +3012,7 @@ int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
 int drawable batiku 0x7f07007a
 int drawable be 0x7f07007b
+int drawable be2 0x7f070108
 int drawable btn_checkbox_checked_mtrl 0x7f07007c
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007d
 int drawable btn_checkbox_unchecked_mtrl 0x7f07007e
@@ -3156,6 +3158,7 @@ int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
+int id Listbatik_btn 0x7f080218
 int id META 0x7f080005
 int id NO_DEBUG 0x7f080006
 int id SHIFT 0x7f080007
@@ -3163,6 +3166,9 @@ int id SHOW_ALL 0x7f080008
 int id SHOW_PATH 0x7f080009
 int id SHOW_PROGRESS 0x7f08000a
 int id SYM 0x7f08000b
+int id Scanbatik_btn 0x7f080219
+int id Signintv 0x7f080216
+int id Signuptv 0x7f080217
 int id TOP_END 0x7f08000c
 int id TOP_START 0x7f08000d
 int id accelerate 0x7f08000e
@@ -3256,7 +3262,6 @@ int id browser_actions_menu_item_icon 0x7f080065
 int id browser_actions_menu_item_text 0x7f080066
 int id browser_actions_menu_items 0x7f080067
 int id browser_actions_menu_view 0x7f080068
-int id buttonLogin 0x7f080069
 int id buttonPanel 0x7f08006a
 int id cache_measures 0x7f08006b
 int id callMeasure 0x7f08006c
@@ -3331,8 +3336,6 @@ int id easeInOut 0x7f0800b0
 int id easeOut 0x7f0800b1
 int id east 0x7f0800b2
 int id edge 0x7f0800b3
-int id editPassword 0x7f0800b4
-int id editUsername 0x7f0800b5
 int id edit_query 0x7f0800b6
 int id edit_text_id 0x7f0800b7
 int id elastic 0x7f0800b8
@@ -3393,6 +3396,8 @@ int id imageView 0x7f0800ee
 int id imageView2 0x7f0800ef
 int id imageView3 0x7f0800f0
 int id imageView4 0x7f0800f1
+int id imageView5 0x7f08021a
+int id imageView6 0x7f08021b
 int id immediateStop 0x7f0800f2
 int id included 0x7f0800f3
 int id indeterminate 0x7f0800f4
@@ -3627,12 +3632,10 @@ int id tag_window_insets_animation_callback 0x7f0801d8
 int id text 0x7f0801d9
 int id text2 0x7f0801da
 int id textEnd 0x7f0801db
-int id textInputLayout2 0x7f0801dc
 int id textSpacerNoButtons 0x7f0801dd
 int id textSpacerNoTitle 0x7f0801de
 int id textStart 0x7f0801df
 int id textTop 0x7f0801e0
-int id textViewContoh1 0x7f0801e1
 int id text_input_end_icon 0x7f0801e2
 int id text_input_error_icon 0x7f0801e3
 int id text_input_start_icon 0x7f0801e4
@@ -3890,6 +3893,8 @@ int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
 int raw firebase_common_keep 0x7f0f0000
+int string ListBatik 0x7f1000c9
+int string ScanBatik 0x7f1000ca
 int string SignIn 0x7f100000
 int string SignUp 0x7f100001
 int string abc_action_bar_home_description 0x7f100002
@@ -5222,6 +5227,7 @@ int style Widget_MaterialComponents_Toolbar_PrimarySurface 0x7f110467
 int style Widget_MaterialComponents_Toolbar_Surface 0x7f110468
 int style Widget_MaterialComponents_Tooltip 0x7f110469
 int style Widget_Support_CoordinatorLayout 0x7f11046a
+int style button_main 0x7f11046b
 int[] styleable ActionBar { 0x7f030047, 0x7f03004e, 0x7f03004f, 0x7f03013d, 0x7f03013e, 0x7f03013f, 0x7f030140, 0x7f030141, 0x7f030142, 0x7f03016b, 0x7f03017e, 0x7f03017f, 0x7f03019f, 0x7f030215, 0x7f03021d, 0x7f030223, 0x7f030224, 0x7f030228, 0x7f03023b, 0x7f030252, 0x7f0302cf, 0x7f030352, 0x7f030384, 0x7f03038b, 0x7f03038c, 0x7f030404, 0x7f030408, 0x7f030490, 0x7f03049e }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1

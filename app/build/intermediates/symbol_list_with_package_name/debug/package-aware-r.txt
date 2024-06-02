@@ -1374,6 +1374,7 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color brown
 color browser_actions_bg_grey
 color browser_actions_divider_color
 color browser_actions_text_color
@@ -3012,6 +3013,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable batiku
 drawable be
+drawable be2
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3157,6 +3159,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Listbatik_btn
 id META
 id NO_DEBUG
 id SHIFT
@@ -3164,6 +3167,9 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Scanbatik_btn
+id Signintv
+id Signuptv
 id TOP_END
 id TOP_START
 id accelerate
@@ -3257,7 +3263,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id buttonLogin
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3332,8 +3337,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editPassword
-id editUsername
 id edit_query
 id edit_text_id
 id elastic
@@ -3394,6 +3397,8 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id immediateStop
 id included
 id indeterminate
@@ -3628,12 +3633,10 @@ id tag_window_insets_animation_callback
 id text
 id text2
 id textEnd
-id textInputLayout2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textViewContoh1
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3891,6 +3894,8 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
+string ListBatik
+string ScanBatik
 string SignIn
 string SignUp
 string abc_action_bar_home_description
@@ -5223,6 +5228,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style button_main
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

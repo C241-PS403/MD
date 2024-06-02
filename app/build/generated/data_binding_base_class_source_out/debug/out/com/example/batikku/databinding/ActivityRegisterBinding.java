@@ -25,6 +25,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView Signintv;
+
+  @NonNull
   public final TextInputEditText emailEditText;
 
   @NonNull
@@ -63,7 +66,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   public final Button signupButton;
 
-  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
+  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Signintv,
       @NonNull TextInputEditText emailEditText, @NonNull TextInputLayout emailEditTextLayout,
       @NonNull TextView emailTextView, @NonNull Guideline guidelineHorizontal,
       @NonNull Guideline guidelineHorizontal2, @NonNull ImageView imageView,
@@ -72,6 +75,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
       @NonNull TextInputLayout repeatpasswordEditTextLayout,
       @NonNull TextView repeatpasswordTextView, @NonNull Button signupButton) {
     this.rootView = rootView;
+    this.Signintv = Signintv;
     this.emailEditText = emailEditText;
     this.emailEditTextLayout = emailEditTextLayout;
     this.emailTextView = emailTextView;
@@ -114,6 +118,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Signintv;
+      TextView Signintv = ViewBindings.findChildViewById(rootView, id);
+      if (Signintv == null) {
+        break missingId;
+      }
+
       id = R.id.emailEditText;
       TextInputEditText emailEditText = ViewBindings.findChildViewById(rootView, id);
       if (emailEditText == null) {
@@ -192,7 +202,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((ConstraintLayout) rootView, emailEditText,
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, Signintv, emailEditText,
           emailEditTextLayout, emailTextView, guidelineHorizontal, guidelineHorizontal2, imageView,
           passwordEditText, passwordEditTextLayout, passwordTextView, repeatpasswordEditText,
           repeatpasswordEditTextLayout, repeatpasswordTextView, signupButton);

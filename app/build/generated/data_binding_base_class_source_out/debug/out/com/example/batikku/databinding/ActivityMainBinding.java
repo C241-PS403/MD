@@ -5,15 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.batikku.R;
-import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -23,29 +21,24 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button buttonLogin;
+  public final Button ListbatikBtn;
 
   @NonNull
-  public final EditText editPassword;
+  public final Button ScanbatikBtn;
 
   @NonNull
-  public final EditText editUsername;
+  public final ImageView imageView5;
 
   @NonNull
-  public final TextInputLayout textInputLayout2;
+  public final ImageView imageView6;
 
-  @NonNull
-  public final TextView textViewContoh1;
-
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonLogin,
-      @NonNull EditText editPassword, @NonNull EditText editUsername,
-      @NonNull TextInputLayout textInputLayout2, @NonNull TextView textViewContoh1) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button ListbatikBtn,
+      @NonNull Button ScanbatikBtn, @NonNull ImageView imageView5, @NonNull ImageView imageView6) {
     this.rootView = rootView;
-    this.buttonLogin = buttonLogin;
-    this.editPassword = editPassword;
-    this.editUsername = editUsername;
-    this.textInputLayout2 = textInputLayout2;
-    this.textViewContoh1 = textViewContoh1;
+    this.ListbatikBtn = ListbatikBtn;
+    this.ScanbatikBtn = ScanbatikBtn;
+    this.imageView5 = imageView5;
+    this.imageView6 = imageView6;
   }
 
   @Override
@@ -75,38 +68,32 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.buttonLogin;
-      Button buttonLogin = ViewBindings.findChildViewById(rootView, id);
-      if (buttonLogin == null) {
+      id = R.id.Listbatik_btn;
+      Button ListbatikBtn = ViewBindings.findChildViewById(rootView, id);
+      if (ListbatikBtn == null) {
         break missingId;
       }
 
-      id = R.id.editPassword;
-      EditText editPassword = ViewBindings.findChildViewById(rootView, id);
-      if (editPassword == null) {
+      id = R.id.Scanbatik_btn;
+      Button ScanbatikBtn = ViewBindings.findChildViewById(rootView, id);
+      if (ScanbatikBtn == null) {
         break missingId;
       }
 
-      id = R.id.editUsername;
-      EditText editUsername = ViewBindings.findChildViewById(rootView, id);
-      if (editUsername == null) {
+      id = R.id.imageView5;
+      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView5 == null) {
         break missingId;
       }
 
-      id = R.id.textInputLayout2;
-      TextInputLayout textInputLayout2 = ViewBindings.findChildViewById(rootView, id);
-      if (textInputLayout2 == null) {
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
         break missingId;
       }
 
-      id = R.id.textViewContoh1;
-      TextView textViewContoh1 = ViewBindings.findChildViewById(rootView, id);
-      if (textViewContoh1 == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, buttonLogin, editPassword,
-          editUsername, textInputLayout2, textViewContoh1);
+      return new ActivityMainBinding((ConstraintLayout) rootView, ListbatikBtn, ScanbatikBtn,
+          imageView5, imageView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

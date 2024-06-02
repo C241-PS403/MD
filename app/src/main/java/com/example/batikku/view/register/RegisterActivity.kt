@@ -22,6 +22,10 @@ class RegisterActivity : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
 
+        binding.Signintv.setOnClickListener{
+            val intent = Intent(this,LoginActivity::class.java)
+            startActivity(intent)
+        }
         binding.signupButton.setOnClickListener {
             val email = binding.emailEditText.text.toString()
             val pass = binding.passwordEditText.text.toString()

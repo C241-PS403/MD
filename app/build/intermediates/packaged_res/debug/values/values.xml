@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="brown">#b5651d</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="ListBatik">List Batik</string>
+    <string name="ScanBatik">Scan Batik</string>
     <string name="SignIn">Sign In</string>
     <string name="SignUp">Sign Up</string>
     <string name="app_name">Batikku</string>
@@ -25,4 +28,7 @@
         
     </style>
     <style name="Theme.Batikku" parent="Base.Theme.Batikku"/>
+    <style name="button_main">
+        <item name="color">@color/brown</item>
+    </style>
 </resources>

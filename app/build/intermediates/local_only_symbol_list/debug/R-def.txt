@@ -1,9 +1,11 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color brown
 color white
 drawable batiku
 drawable be
+drawable be2
 drawable button_login
 drawable ic_baseline_email_24
 drawable ic_baseline_lock_24
@@ -13,9 +15,10 @@ drawable ic_user
 drawable logo
 drawable slogan
 drawable welc
-id buttonLogin
-id editPassword
-id editUsername
+id Listbatik_btn
+id Scanbatik_btn
+id Signintv
+id Signuptv
 id emailEditText
 id emailEditTextLayout
 id emailTextView
@@ -25,6 +28,8 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id passwordEditText
 id passwordEditTextLayout
 id passwordTextView
@@ -34,8 +39,6 @@ id repeatpasswordEditTextLayout
 id repeatpasswordTextView
 id signin
 id signupButton
-id textInputLayout2
-id textViewContoh1
 layout activity_login
 layout activity_main
 layout activity_register
@@ -43,6 +46,8 @@ layout activity_splash
 layout activity_welcome
 mipmap ic_launcher
 mipmap ic_launcher_round
+string ListBatik
+string ScanBatik
 string SignIn
 string SignUp
 string app_name
@@ -58,5 +63,6 @@ style AppTheme
 style AppTheme.NoActionBar
 style Base.Theme.Batikku
 style Theme.Batikku
+style button_main
 xml backup_rules
 xml data_extraction_rules
