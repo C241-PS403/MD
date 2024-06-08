@@ -8,12 +8,16 @@
         "source": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-41:\\layout\\activity_login.xml"
     },
     {
+        "merged": "com.example.batikku.app-mergeDebugResources-38:/layout/activity_list.xml",
+        "source": "com.example.batikku.app-main-41:/layout/activity_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-38:\\layout\\activity_splash.xml",
         "source": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-41:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.example.batikku.app-mergeDebugResources-38:/layout/activity_main.xml",
-        "source": "com.example.batikku.app-main-41:/layout/activity_main.xml"
+        "merged": "com.example.batikku.app-mergeDebugResources-38:/layout/item_row_list.xml",
+        "source": "com.example.batikku.app-main-41:/layout/item_row_list.xml"
     },
     {
         "merged": "C:\\Users\\Raiha\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-38:\\layout\\activity_welcome.xml",

@@ -8,14 +8,18 @@
     <string name="SignIn">Sign In</string>
     <string name="SignUp">Sign Up</string>
     <string name="app_name">Batikku</string>
+    <string name="asalBatik">Asal Batik</string>
+    <string name="descBatik">Deskripsi Batik</string>
     <string name="email">Email</string>
     <string name="gcm_defaultSenderId" translatable="false">837398942736</string>
     <string name="google_api_key" translatable="false">AIzaSyAwUFqH0N-ZssWOLC9qRGnvz0ziUril2tc</string>
     <string name="google_app_id" translatable="false">1:837398942736:android:56fbdc4cee8688d99f2695</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAwUFqH0N-ZssWOLC9qRGnvz0ziUril2tc</string>
     <string name="google_storage_bucket" translatable="false">batikku-4cbdb.appspot.com</string>
+    <string name="namaBatik">Nama Batik</string>
     <string name="password">Password</string>
     <string name="project_id" translatable="false">batikku-4cbdb</string>
+    <string name="searchView">Search Here ...</string>
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
 
     </style>

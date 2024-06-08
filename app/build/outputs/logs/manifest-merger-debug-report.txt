@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Raiha\.gradle\caches\transforms-3\be7926fd6eea9a0889beb021035f33c0\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Raiha\.gradle\caches\transforms-3\7ed6f9ce964099373ee8d7fb8df78702\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Raiha\.gradle\caches\transforms-3\ccb0548c3e0ed27e73465f31aade944a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -77,16 +77,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Raiha\.gradle\caches\transform
 	xmlns:android
 		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:6:1-62
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Raiha\.gradle\caches\transforms-3\cccfb77b926c1f12afbcd1a8e8279547\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Raiha\.gradle\caches\transforms-3\cccfb77b926c1f12afbcd1a8e8279547\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Raiha\.gradle\caches\transforms-3\7370db56cd3b871a2ccabff239354dc1\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Raiha\.gradle\caches\transforms-3\7370db56cd3b871a2ccabff239354dc1\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:6:18-60
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:7:5-43:19
-INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:7:5-43:19
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:7:5-45:19
+INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:7:5-45:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Raiha\.gradle\caches\transforms-3\7ed6f9ce964099373ee8d7fb8df78702\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Raiha\.gradle\caches\transforms-3\7ed6f9ce964099373ee8d7fb8df78702\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Raiha\.gradle\caches\transforms-3\ccb0548c3e0ed27e73465f31aade944a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -151,54 +151,60 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Raiha\.gradle\cach
 		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:15:9-45
 	android:dataExtractionRules
 		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.example.batikku.view.list.ListActivity
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:18:13-51
 activity#com.example.batikku.view.register.RegisterActivity
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:17:9-19:39
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:20:9-22:39
 	android:exported
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:18:13-59
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:21:13-59
 activity#com.example.batikku.view.login.RegisterActivity
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:22:13-56
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:24:13-56
 activity#com.example.batikku.view.welcome.WelcomeActivity
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:24:9-26:40
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:25:13-57
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:27:13-57
 activity#com.example.batikku.view.login.LoginActivity
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:27:9-29:39
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:29:9-31:39
 	android:exported
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:28:13-53
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:30:13-53
 activity#com.example.batikku.SplashActivity
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:30:9-39:20
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:32:9-41:20
 	android:exported
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:34:13-36
 	android:theme
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:35:13-56
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:31:13-43
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:33:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:39:27-74
 activity#com.example.batikku.view.main.MainActivity
-ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:40:9-42:39
+ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:42:9-44:39
 	android:exported
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:41:13-51
+		ADDED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml:43:13-51
 uses-sdk
 INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Raiha\AndroidStudioProjects\MD2\app\src\main\AndroidManifest.xml

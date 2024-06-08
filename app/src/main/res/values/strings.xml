@@ -6,5 +6,9 @@
     <string name="SignIn">Sign In</string>
     <string name="ScanBatik">Scan Batik</string>
     <string name="ListBatik">List Batik</string>
+    <string name="namaBatik">Nama Batik</string>
+    <string name="asalBatik">Asal Batik</string>
+    <string name="descBatik">Deskripsi Batik</string>
+    <string name="searchView">Search Here ...</string>
 
 </resources>

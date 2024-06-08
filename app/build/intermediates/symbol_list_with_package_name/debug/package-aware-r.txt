@@ -3267,6 +3267,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id card_view
 id carryVelocity
 id center
 id centerCrop
@@ -3399,6 +3400,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id img_item_photo
 id immediateStop
 id included
 id indeterminate
@@ -3446,6 +3448,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id mcv_seachbar
 id message
 id middle
 id mini
@@ -3553,6 +3556,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rv_batik
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3563,6 +3567,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchView
 id search_badge
 id search_bar
 id search_button
@@ -3665,6 +3670,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_item_asal
+id tv_item_name
 id unchecked
 id uniform
 id unlabeled
@@ -3804,6 +3811,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_list
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3829,6 +3837,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_row_list
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3930,6 +3939,7 @@ string androidx_credentials_TYPE_PUBLIC_KEY_CREDENTIAL
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string asalBatik
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3966,6 +3976,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
+string descBatik
 string email
 string error_a11y_label
 string error_icon_content_description
@@ -4083,6 +4094,7 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string namaBatik
 string password
 string password_toggle_content_description
 string path_password_eye
@@ -4090,6 +4102,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string searchView
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

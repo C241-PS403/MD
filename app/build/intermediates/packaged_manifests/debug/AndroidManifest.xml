@@ -32,6 +32,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Batikku" >
         <activity
+            android:name="com.example.batikku.view.list.ListActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.batikku.view.register.RegisterActivity"
             android:exported="true" />
         <activity

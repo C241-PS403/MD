@@ -3266,6 +3266,7 @@ int id buttonPanel 0x7f08006a
 int id cache_measures 0x7f08006b
 int id callMeasure 0x7f08006c
 int id cancel_button 0x7f08006d
+int id card_view 0x7f08021c
 int id carryVelocity 0x7f08006e
 int id center 0x7f08006f
 int id centerCrop 0x7f080070
@@ -3398,6 +3399,7 @@ int id imageView3 0x7f0800f0
 int id imageView4 0x7f0800f1
 int id imageView5 0x7f08021a
 int id imageView6 0x7f08021b
+int id img_item_photo 0x7f08021d
 int id immediateStop 0x7f0800f2
 int id included 0x7f0800f3
 int id indeterminate 0x7f0800f4
@@ -3445,6 +3447,7 @@ int id material_timepicker_ok_button 0x7f08011d
 int id material_timepicker_view 0x7f08011e
 int id material_value_index 0x7f08011f
 int id matrix 0x7f080120
+int id mcv_seachbar 0x7f08021e
 int id message 0x7f080121
 int id middle 0x7f080122
 int id mini 0x7f080123
@@ -3552,6 +3555,7 @@ int id right_icon 0x7f080188
 int id right_side 0x7f080189
 int id rounded 0x7f08018a
 int id row_index_key 0x7f08018b
+int id rv_batik 0x7f08021f
 int id save_non_transition_alpha 0x7f08018c
 int id save_overlay_view 0x7f08018d
 int id sawtooth 0x7f08018e
@@ -3562,6 +3566,7 @@ int id scrollIndicatorDown 0x7f080192
 int id scrollIndicatorUp 0x7f080193
 int id scrollView 0x7f080194
 int id scrollable 0x7f080195
+int id searchView 0x7f080220
 int id search_badge 0x7f080196
 int id search_bar 0x7f080197
 int id search_button 0x7f080198
@@ -3664,6 +3669,8 @@ int id transition_position 0x7f0801fa
 int id transition_scene_layoutid_cache 0x7f0801fb
 int id transition_transform 0x7f0801fc
 int id triangle 0x7f0801fd
+int id tv_item_asal 0x7f080221
+int id tv_item_name 0x7f080222
 int id unchecked 0x7f0801fe
 int id uniform 0x7f0801ff
 int id unlabeled 0x7f080200
@@ -3803,6 +3810,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_list 0x7f0b0072
 int layout activity_login 0x7f0b001c
 int layout activity_main 0x7f0b001d
 int layout activity_register 0x7f0b001e
@@ -3828,6 +3836,7 @@ int layout design_text_input_end_icon 0x7f0b0031
 int layout design_text_input_start_icon 0x7f0b0032
 int layout ime_base_split_test_activity 0x7f0b0033
 int layout ime_secondary_split_test_activity 0x7f0b0034
+int layout item_row_list 0x7f0b0073
 int layout m3_alert_dialog 0x7f0b0035
 int layout m3_alert_dialog_actions 0x7f0b0036
 int layout m3_alert_dialog_title 0x7f0b0037
@@ -3929,6 +3938,7 @@ int string androidx_credentials_TYPE_PUBLIC_KEY_CREDENTIAL 0x7f10001e
 int string androidx_startup 0x7f10001f
 int string app_name 0x7f100020
 int string appbar_scrolling_view_behavior 0x7f100021
+int string asalBatik 0x7f1000cb
 int string bottom_sheet_behavior 0x7f100022
 int string bottomsheet_action_collapse 0x7f100023
 int string bottomsheet_action_expand 0x7f100024
@@ -3965,6 +3975,7 @@ int string common_open_on_phone 0x7f100042
 int string common_signin_button_text 0x7f100043
 int string common_signin_button_text_long 0x7f100044
 int string copy_toast_msg 0x7f100045
+int string descBatik 0x7f1000cc
 int string email 0x7f100046
 int string error_a11y_label 0x7f100047
 int string error_icon_content_description 0x7f100048
@@ -4082,6 +4093,7 @@ int string mtrl_switch_track_decoration_path 0x7f1000b7
 int string mtrl_switch_track_path 0x7f1000b8
 int string mtrl_timepicker_cancel 0x7f1000b9
 int string mtrl_timepicker_confirm 0x7f1000ba
+int string namaBatik 0x7f1000cd
 int string password 0x7f1000bb
 int string password_toggle_content_description 0x7f1000bc
 int string path_password_eye 0x7f1000bd
@@ -4089,6 +4101,7 @@ int string path_password_eye_mask_strike_through 0x7f1000be
 int string path_password_eye_mask_visible 0x7f1000bf
 int string path_password_strike_through 0x7f1000c0
 int string project_id 0x7f1000c1
+int string searchView 0x7f1000ce
 int string search_menu_title 0x7f1000c2
 int string searchbar_scrolling_view_behavior 0x7f1000c3
 int string searchview_clear_text_content_description 0x7f1000c4
