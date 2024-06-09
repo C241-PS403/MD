@@ -10,5 +10,11 @@
     <string name="asalBatik">Asal Batik</string>
     <string name="descBatik">Deskripsi Batik</string>
     <string name="searchView">Search Here ...</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="button_cam">Camera</string>
+    <string name="button_gallery">Gallery</string>
+    <string name="uname">"        Username atau email"</string>
+    <string name="upass">"        Password"</string>
+    <string name="rpass">"        Repeat Password"</string>
 
 </resources>

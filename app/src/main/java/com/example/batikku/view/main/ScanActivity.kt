@@ -1,12 +1,12 @@
-package com.example.batikku.view.welcome
+package com.example.batikku.view.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.batikku.R
 
-class WelcomeActivity : AppCompatActivity() {
+class ScanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome)
+        setContentView(R.layout.activity_scan)
     }
 }

@@ -19,18 +19,6 @@
         app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal2"
         app:srcCompat="@drawable/welc" />
 
-    <TextView
-        android:id="@+id/emailTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:alpha="0"
-        android:text="@string/email"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:alpha="100" />
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailEditTextLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -41,7 +29,7 @@
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailTextView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:startIconDrawable="@drawable/ic_baseline_email_24"
         tools:alpha="100">
 
@@ -50,23 +38,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="        Username atau email"
+            android:hint="@string/uname"
             android:inputType="textEmailAddress"
             tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/passwordTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:alpha="0"
-        android:text="@string/password"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailEditTextLayout"
-        tools:alpha="100" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passwordEditTextLayout"
@@ -74,12 +49,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="88dp"
         android:layout_marginEnd="32dp"
         android:background="@color/white"
         app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordTextView"
+        app:layout_constraintTop_toTopOf="@+id/emailEditTextLayout"
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
         tools:alpha="100">
 
@@ -88,37 +64,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="       Password"
+            android:hint="@string/upass"
             android:inputType="textPassword"
             tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
-
-    <TextView
-        android:id="@+id/repeatpasswordTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:alpha="0"
-        android:text="@string/email"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:alpha="100" />
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/repeatpasswordEditTextLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="93dp"
         android:layout_marginEnd="32dp"
         android:background="@color/white"
         app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordTextView"
+        app:layout_constraintTop_toTopOf="@+id/passwordEditTextLayout"
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
         tools:alpha="100">
 
@@ -128,7 +92,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="       Repeat Password"
+            android:hint="@string/rpass"
             android:inputType="textPassword"
             tools:ignore="SpeakableTextPresentCheck"
             tools:layout_editor_absoluteX="11dp"
