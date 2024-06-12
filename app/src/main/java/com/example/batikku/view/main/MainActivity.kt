@@ -17,6 +17,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.ScanbatikBtn.setOnClickListener{
+            val intent = Intent(this, ScanActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.ListbatikBtn.setOnClickListener{
             val intent = Intent(this , ListActivity::class.java)
             startActivity(intent)
