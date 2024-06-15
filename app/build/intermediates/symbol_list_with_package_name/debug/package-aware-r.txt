@@ -647,6 +647,7 @@ attr imagePanX
 attr imagePanY
 attr imageRotate
 attr imageZoom
+attr implementationMode
 attr indeterminateAnimationType
 attr indeterminateProgressStyle
 attr indicatorColor
@@ -1014,6 +1015,7 @@ attr round
 attr roundPercent
 attr saturation
 attr scaleFromTextSize
+attr scaleType
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -3022,6 +3024,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_background
 drawable button_login
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -3058,6 +3061,7 @@ drawable ic_call_answer_video
 drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
+drawable ic_capture
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -3071,9 +3075,13 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_other_sign_in
+drawable ic_outline_image_24
+drawable ic_outline_photo_camera_24
 drawable ic_passkey
 drawable ic_password
+drawable ic_place_holder
 drawable ic_search_black_24
+drawable ic_switch_camera
 drawable ic_user
 drawable indeterminate_static
 drawable logo
@@ -3266,7 +3274,9 @@ id browser_actions_menu_view
 id buttonPanel
 id cache_measures
 id callMeasure
+id camButton
 id cancel_button
+id captureImage
 id card_view
 id carryVelocity
 id center
@@ -3287,6 +3297,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id compatible
 id compress
 id confirm_button
 id constraint
@@ -3343,7 +3354,6 @@ id edit_text_id
 id elastic
 id emailEditText
 id emailEditTextLayout
-id emailTextView
 id embed
 id end
 id endToStart
@@ -3355,6 +3365,9 @@ id expand_activities_button
 id expanded_menu
 id fade
 id fill
+id fillCenter
+id fillEnd
+id fillStart
 id fill_horizontal
 id fill_vertical
 id filled
@@ -3370,6 +3383,7 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id galButton
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3400,6 +3414,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageView7
 id img_item_photo
 id immediateStop
 id included
@@ -3409,6 +3424,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_preview
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3529,17 +3545,19 @@ id parentRelative
 id parent_matrix
 id passwordEditText
 id passwordEditTextLayout
-id passwordTextView
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
+id performance
 id pin
 id position
 id postLayout
 id pressed
 id progressBar
+id progressIndicator
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
@@ -3547,7 +3565,6 @@ id ratio
 id rectangles
 id repeatpasswordEditText
 id repeatpasswordEditTextLayout
-id repeatpasswordTextView
 id report_drawn
 id reverseSawtooth
 id right
@@ -3621,6 +3638,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchCamera
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3642,6 +3660,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView_daerah
+id textView_makna
+id textView_nama_batik
+id textView_sejarah
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3678,6 +3700,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewFinder
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3811,12 +3834,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_camera
+layout activity_detail
 layout activity_list
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_scan
 layout activity_splash
-layout activity_welcome
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3946,6 +3971,8 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string button_cam
+string button_gallery
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -3978,6 +4005,7 @@ string common_signin_button_text_long
 string copy_toast_msg
 string descBatik
 string email
+string empty_image_warning
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3993,6 +4021,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string image_preview
 string item_view_role_description
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -4102,6 +4131,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string rpass
 string searchView
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -4110,6 +4140,8 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string uname
+string upass
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -5356,6 +5388,7 @@ styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable PreviewView implementationMode scaleType
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values

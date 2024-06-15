@@ -34,9 +34,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextInputLayout emailEditTextLayout;
 
   @NonNull
-  public final TextView emailTextView;
-
-  @NonNull
   public final Guideline guidelineHorizontal;
 
   @NonNull
@@ -52,42 +49,32 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextInputLayout passwordEditTextLayout;
 
   @NonNull
-  public final TextView passwordTextView;
-
-  @NonNull
   public final TextInputEditText repeatpasswordEditText;
 
   @NonNull
   public final TextInputLayout repeatpasswordEditTextLayout;
 
   @NonNull
-  public final TextView repeatpasswordTextView;
-
-  @NonNull
   public final Button signupButton;
 
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Signintv,
       @NonNull TextInputEditText emailEditText, @NonNull TextInputLayout emailEditTextLayout,
-      @NonNull TextView emailTextView, @NonNull Guideline guidelineHorizontal,
-      @NonNull Guideline guidelineHorizontal2, @NonNull ImageView imageView,
-      @NonNull TextInputEditText passwordEditText, @NonNull TextInputLayout passwordEditTextLayout,
-      @NonNull TextView passwordTextView, @NonNull TextInputEditText repeatpasswordEditText,
-      @NonNull TextInputLayout repeatpasswordEditTextLayout,
-      @NonNull TextView repeatpasswordTextView, @NonNull Button signupButton) {
+      @NonNull Guideline guidelineHorizontal, @NonNull Guideline guidelineHorizontal2,
+      @NonNull ImageView imageView, @NonNull TextInputEditText passwordEditText,
+      @NonNull TextInputLayout passwordEditTextLayout,
+      @NonNull TextInputEditText repeatpasswordEditText,
+      @NonNull TextInputLayout repeatpasswordEditTextLayout, @NonNull Button signupButton) {
     this.rootView = rootView;
     this.Signintv = Signintv;
     this.emailEditText = emailEditText;
     this.emailEditTextLayout = emailEditTextLayout;
-    this.emailTextView = emailTextView;
     this.guidelineHorizontal = guidelineHorizontal;
     this.guidelineHorizontal2 = guidelineHorizontal2;
     this.imageView = imageView;
     this.passwordEditText = passwordEditText;
     this.passwordEditTextLayout = passwordEditTextLayout;
-    this.passwordTextView = passwordTextView;
     this.repeatpasswordEditText = repeatpasswordEditText;
     this.repeatpasswordEditTextLayout = repeatpasswordEditTextLayout;
-    this.repeatpasswordTextView = repeatpasswordTextView;
     this.signupButton = signupButton;
   }
 
@@ -136,12 +123,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.emailTextView;
-      TextView emailTextView = ViewBindings.findChildViewById(rootView, id);
-      if (emailTextView == null) {
-        break missingId;
-      }
-
       id = R.id.guidelineHorizontal;
       Guideline guidelineHorizontal = ViewBindings.findChildViewById(rootView, id);
       if (guidelineHorizontal == null) {
@@ -172,12 +153,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.passwordTextView;
-      TextView passwordTextView = ViewBindings.findChildViewById(rootView, id);
-      if (passwordTextView == null) {
-        break missingId;
-      }
-
       id = R.id.repeatpasswordEditText;
       TextInputEditText repeatpasswordEditText = ViewBindings.findChildViewById(rootView, id);
       if (repeatpasswordEditText == null) {
@@ -190,12 +165,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.repeatpasswordTextView;
-      TextView repeatpasswordTextView = ViewBindings.findChildViewById(rootView, id);
-      if (repeatpasswordTextView == null) {
-        break missingId;
-      }
-
       id = R.id.signupButton;
       Button signupButton = ViewBindings.findChildViewById(rootView, id);
       if (signupButton == null) {
@@ -203,9 +172,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       return new ActivityRegisterBinding((ConstraintLayout) rootView, Signintv, emailEditText,
-          emailEditTextLayout, emailTextView, guidelineHorizontal, guidelineHorizontal2, imageView,
-          passwordEditText, passwordEditTextLayout, passwordTextView, repeatpasswordEditText,
-          repeatpasswordEditTextLayout, repeatpasswordTextView, signupButton);
+          emailEditTextLayout, guidelineHorizontal, guidelineHorizontal2, imageView,
+          passwordEditText, passwordEditTextLayout, repeatpasswordEditText,
+          repeatpasswordEditTextLayout, signupButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

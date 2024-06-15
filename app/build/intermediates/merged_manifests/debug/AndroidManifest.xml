@@ -8,7 +8,10 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-feature android:name="android.hardware.camera" />
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
@@ -32,6 +35,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Batikku" >
         <activity
+            android:name="com.example.batikku.view.main.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.batikku.view.main.ScanActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.batikku.view.main.CameraActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.batikku.view.list.ListActivity"
             android:exported="false" />
         <activity
@@ -39,9 +51,6 @@
             android:exported="true" />
         <activity
             android:name="com.example.batikku.view.login.RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.batikku.view.welcome.WelcomeActivity"
             android:exported="false" />
         <activity
             android:name="com.example.batikku.view.login.LoginActivity"
@@ -59,6 +68,15 @@
         <activity
             android:name="com.example.batikku.view.main.MainActivity"
             android:exported="true" />
+
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+        </service>
 
         <provider
             android:name="androidx.startup.InitializationProvider"

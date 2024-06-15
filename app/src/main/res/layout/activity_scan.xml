@@ -7,6 +7,15 @@
     android:background="@drawable/be"
     tools:context=".view.main.ScanActivity">
 
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/iv_preview"
@@ -19,45 +28,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_margin="100dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.8"
         app:srcCompat="@drawable/ic_place_holder" />
 
     <ImageButton
-        android:id="@+id/button_camera"
+        android:id="@+id/camButton"
         android:layout_width="110dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="204dp"
-        android:layout_weight="0.5"
+        android:layout_marginBottom="16dp"
         android:contentDescription="@string/button_cam"
         android:padding="7dp"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_outline_photo_camera_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/imageButton_gallery"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@id/galButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_preview"
+        app:layout_constraintVertical_bias="0.368" />
 
     <ImageButton
-        android:id="@+id/imageButton_gallery"
+        android:id="@+id/galButton"
         android:layout_width="110dp"
         android:layout_height="70dp"
-        android:layout_weight="0.5"
         android:contentDescription="@string/button_gallery"
         android:padding="7dp"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_outline_image_24"
-        app:layout_constraintBottom_toBottomOf="@+id/button_camera"
+        app:layout_constraintBottom_toBottomOf="@+id/camButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/button_camera"
-        app:layout_constraintTop_toTopOf="@+id/button_camera" />
+        app:layout_constraintStart_toEndOf="@id/camButton"
+        app:layout_constraintTop_toTopOf="@+id/camButton" />
 
     <ProgressBar
         android:id="@+id/progress_bar"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
