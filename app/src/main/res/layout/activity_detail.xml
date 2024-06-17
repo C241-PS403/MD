@@ -6,66 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".view.main.DetailActivity">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="369dp"
-        android:layout_height="200dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView_nama_batik"
-        android:layout_width="309dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="440dp"
-        android:text="Nama Batik"
-        android:textSize="24sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintEnd_toEndOf="parent">
 
-    <TextView
-        android:id="@+id/textView_makna"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Makna"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.204" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
 
-    <TextView
-        android:id="@+id/textView_sejarah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sejarah"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.275" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
 
-    <TextView
-        android:id="@+id/textView_daerah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Daerah"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.142" />
+            <TextView
+                android:id="@+id/textView_nama_batik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Batik"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
 
+            <TextView
+                android:id="@+id/textView_daerah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daerah"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/textView_daerah_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jawa Tengah"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/textView_makna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makna"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/textView_makna_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Makna batik" />
+
+            <TextView
+                android:id="@+id/textView_sejarah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sejarah"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/textView_sejarah_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sejarah batik"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
