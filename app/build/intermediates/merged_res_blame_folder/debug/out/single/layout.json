@@ -28,15 +28,15 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\layout\\activity_camera.xml"
     },
     {
+        "merged": "com.example.batikku.app-mergeDebugResources-44:/layout/activity_splash.xml",
+        "source": "com.example.batikku.app-main-47:/layout/activity_splash.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-44:\\layout\\activity_login.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-mergeDebugResources-44:\\layout\\activity_list.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\layout\\activity_list.xml"
-    },
-    {
-        "merged": "com.example.batikku.app-mergeDebugResources-44:/layout/activity_scan.xml",
-        "source": "com.example.batikku.app-main-47:/layout/activity_scan.xml"
     }
 ]

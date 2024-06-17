@@ -24,6 +24,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.batikku.app-merged_res-45:/layout_activity_splash.xml.flat",
+        "source": "com.example.batikku.app-main-47:/layout/activity_splash.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -32,16 +36,16 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\drawable_batiku.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\drawable\\batiku.png"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\drawable_batiku.png.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\drawable\\batiku.png"
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\xml\\data_extraction_rules.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\drawable_be.jpg.flat",
@@ -74,6 +78,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\drawable_slogo.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\drawable\\slogo.png"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -154,10 +162,6 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\layout_activity_camera.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-main-47:\\layout\\activity_camera.xml"
-    },
-    {
-        "merged": "com.example.batikku.app-merged_res-45:/layout_activity_scan.xml.flat",
-        "source": "com.example.batikku.app-main-47:/layout/activity_scan.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\8.2\\com.example.batikku.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
