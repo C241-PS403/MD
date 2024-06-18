@@ -2,12 +2,15 @@ R_DEF: Internal format may change without notice
 local
 color black
 color brown
+color brownish
+color cream
 color white
 drawable batiku
 drawable be
 drawable be2
 drawable button_background
 drawable button_login
+drawable button_rectangular
 drawable ic_baseline_email_24
 drawable ic_baseline_lock_24
 drawable ic_capture
@@ -27,7 +30,8 @@ id Signintv
 id Signuptv
 id camButton
 id captureImage
-id card_view
+id cv_img
+id detButton
 id emailEditText
 id emailEditTextLayout
 id galButton
@@ -42,7 +46,7 @@ id imageView6
 id imageView7
 id img_item_photo
 id iv_preview
-id mcv_seachbar
+id namaBatik
 id passwordEditText
 id passwordEditTextLayout
 id progressBar
@@ -51,15 +55,17 @@ id progress_bar
 id repeatpasswordEditText
 id repeatpasswordEditTextLayout
 id rv_batik
-id searchView
 id signin
 id signupButton
 id switchCamera
 id textView_daerah
+id textView_daerah_detail
 id textView_makna
+id textView_makna_detail
 id textView_nama_batik
 id textView_sejarah
-id tv_item_asal
+id textView_sejarah_detail
+id tv_item_history
 id tv_item_name
 id viewFinder
 layout activity_camera
@@ -82,6 +88,7 @@ string asalBatik
 string button_cam
 string button_gallery
 string descBatik
+string detButton
 string email
 string empty_image_warning
 string gcm_defaultSenderId

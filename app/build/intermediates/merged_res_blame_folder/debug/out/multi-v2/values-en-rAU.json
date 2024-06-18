@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.batikku.app-mergeDebugResources-43:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.batikku.app-mergeDebugResources-46:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\280c75f252dd7d6989902ecfae453414\\transformed\\core-1.13.1\\res\\values-en-rAU\\values-en-rAU.xml",

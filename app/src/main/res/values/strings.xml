@@ -17,5 +17,6 @@
     <string name="upass">"        Password"</string>
     <string name="rpass">"        Repeat Password"</string>
     <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="detButton">Detail</string>
 
 </resources>

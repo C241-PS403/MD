@@ -2,6 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="brown">#b5651d</color>
+    <color name="brownish">#CF8C50</color>
+    <color name="cream">#D3B398</color>
     <color name="white">#FFFFFFFF</color>
     <string name="ListBatik">List Batik</string>
     <string name="ScanBatik">Scan Batik</string>
@@ -12,6 +14,7 @@
     <string name="button_cam">Camera</string>
     <string name="button_gallery">Gallery</string>
     <string name="descBatik">Deskripsi Batik</string>
+    <string name="detButton">Detail</string>
     <string name="email">Email</string>
     <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
     <string name="gcm_defaultSenderId" translatable="false">837398942736</string>

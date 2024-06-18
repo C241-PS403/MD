@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.batikku.app-mergeDebugResources-43:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.example.batikku.app-mergeDebugResources-46:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\483be6463ae8640841a3b9a3a5481a8e\\transformed\\play-services-base-18.0.1\\res\\values-b+sr+Latn\\values.xml",

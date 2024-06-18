@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/be"
+    android:background="@drawable/be2"
     tools:context=".view.main.ScanActivity">
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="30dp"
         android:contentDescription="@string/image_preview"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,25 +35,27 @@
     <ImageButton
         android:id="@+id/camButton"
         android:layout_width="110dp"
-        android:layout_height="65dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/button_cam"
         android:padding="7dp"
         android:scaleType="fitCenter"
+        android:backgroundTint="@color/cream"
         android:src="@drawable/ic_outline_photo_camera_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/galButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/iv_preview"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintVertical_bias="0.466" />
 
     <ImageButton
         android:id="@+id/galButton"
         android:layout_width="110dp"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:contentDescription="@string/button_gallery"
         android:padding="7dp"
         android:scaleType="fitCenter"
+        android:backgroundTint="@color/cream"
         android:src="@drawable/ic_outline_image_24"
         app:layout_constraintBottom_toBottomOf="@+id/camButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +73,35 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553"
+        app:layout_constraintVertical_bias="0.521"
         tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/detButton"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:text="@string/detButton"
+        android:backgroundTint="@color/brownish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/galButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/camButton"
+        app:layout_constraintTop_toTopOf="@+id/iv_preview"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <TextView
+        android:id="@+id/namaBatik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/detButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_bar"
+        app:layout_constraintVertical_bias="0.193" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

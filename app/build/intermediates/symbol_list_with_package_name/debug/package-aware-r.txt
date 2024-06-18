@@ -1377,6 +1377,7 @@ color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
 color brown
+color brownish
 color browser_actions_bg_grey
 color browser_actions_divider_color
 color browser_actions_text_color
@@ -1400,6 +1401,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color cream
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -3026,6 +3028,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
 drawable button_login
+drawable button_rectangular
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3277,7 +3280,6 @@ id callMeasure
 id camButton
 id cancel_button
 id captureImage
-id card_view
 id carryVelocity
 id center
 id centerCrop
@@ -3314,6 +3316,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id cv_img
 id dark
 id date_picker_actions
 id decelerate
@@ -3327,6 +3330,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detButton
 id dialog_button
 id dimensions
 id direct
@@ -3386,6 +3390,7 @@ id fullscreen_header
 id galButton
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3464,7 +3469,6 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
-id mcv_seachbar
 id message
 id middle
 id mini
@@ -3499,6 +3503,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id namaBatik
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3584,7 +3589,6 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
-id searchView
 id search_badge
 id search_bar
 id search_button
@@ -3661,9 +3665,12 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView_daerah
+id textView_daerah_detail
 id textView_makna
+id textView_makna_detail
 id textView_nama_batik
 id textView_sejarah
+id textView_sejarah_detail
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3692,7 +3699,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tv_item_asal
+id tv_item_history
 id tv_item_name
 id unchecked
 id uniform
@@ -4004,6 +4011,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
 string descBatik
+string detButton
 string email
 string empty_image_warning
 string error_a11y_label

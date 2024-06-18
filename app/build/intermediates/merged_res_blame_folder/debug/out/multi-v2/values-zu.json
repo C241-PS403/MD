@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.batikku.app-mergeDebugResources-43:/values-zu/values-zu.xml",
+            "outputFile": "com.example.batikku.app-mergeDebugResources-46:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\a5a29c1c51904f51ff5b3676eb4b7c60\\transformed\\browser-1.4.0\\res\\values-zu\\values-zu.xml",
