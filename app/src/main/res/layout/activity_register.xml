@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:textColor="#000000"
-            android:textColorHint="#808080"
+            android:textColorHint="#494949"
             android:hint="@string/uname"
             android:inputType="textEmailAddress"
             tools:ignore="SpeakableTextPresentCheck" />
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:textColor="#000000"
-            android:textColorHint="#808080"
+            android:textColorHint="#494949"
             android:hint="@string/upass"
             android:inputType="textPassword"
             tools:ignore="SpeakableTextPresentCheck" />
@@ -96,10 +96,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:textColor="#000000"
-            android:textColorHint="#808080"
             android:hint="@string/rpass"
             android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#494949"
             tools:ignore="SpeakableTextPresentCheck"
             tools:layout_editor_absoluteX="11dp"
             tools:layout_editor_absoluteY="469dp" />
@@ -109,7 +109,6 @@
 
     <Button
         android:id="@+id/signupButton"
-        android:background="@drawable/button_rectangular"
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginStart="32dp"
@@ -117,14 +116,13 @@
         android:layout_marginEnd="32dp"
         android:alpha="1"
         android:text="@string/SignUp"
+        android:textColor="@color/white"
         android:backgroundTint="@color/brown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordEditTextLayout"
-        app:layout_constraintVertical_bias="0.204"
-        tools:alpha="100" />
+        app:layout_constraintVertical_bias="0.204" />
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -150,7 +148,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="84dp"
-        android:text="Already Registred , Sign In !"
+        android:text="@string/AlrRegistered"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

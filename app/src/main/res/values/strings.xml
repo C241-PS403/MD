@@ -18,5 +18,7 @@
     <string name="rpass">"        Repeat Password"</string>
     <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
     <string name="detButton">Detail</string>
+    <string name="NotRegistered">Not Registered Yet, Sign Up!</string>
+    <string name="AlrRegistered">Already Registred , Sign In !</string>
 
 </resources>
