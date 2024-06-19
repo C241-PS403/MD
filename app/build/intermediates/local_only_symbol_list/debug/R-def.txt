@@ -23,6 +23,7 @@ drawable ic_switch_camera
 drawable ic_user
 drawable logo
 drawable slogan
+drawable slogo
 drawable welc
 id Listbatik_btn
 id Scanbatik_btn
@@ -49,6 +50,7 @@ id iv_preview
 id namaBatik
 id passwordEditText
 id passwordEditTextLayout
+id predictButton
 id progressBar
 id progressIndicator
 id progress_bar
@@ -79,7 +81,9 @@ layout activity_splash
 layout item_row_list
 mipmap ic_launcher
 mipmap ic_launcher_round
+string AlrRegistered
 string ListBatik
+string NotRegistered
 string ScanBatik
 string SignIn
 string SignUp

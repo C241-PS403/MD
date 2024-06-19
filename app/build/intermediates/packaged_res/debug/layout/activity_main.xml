@@ -32,10 +32,10 @@
 
     <Button
         android:id="@+id/Scanbatik_btn"
-        android:background="@color/brown"
         android:layout_width="177dp"
-        android:layout_height="55dp"
+        android:layout_height="70dp"
         android:text="@string/ScanBatik"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:backgroundTint="@color/brown"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,12 +45,12 @@
         app:layout_constraintVertical_bias="0.235" />
 
     <Button
-        android:background="@drawable/button_rectangular"
         android:id="@+id/Listbatik_btn"
         android:layout_width="177dp"
-        android:layout_height="55dp"
+        android:layout_height="70dp"
         android:text="@string/ListBatik"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:backgroundTint="@color/brown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:2:1-58:12
+ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\User\.gradle\caches\transforms-3\be7926fd6eea9a0889beb021035f33c0\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.camera:camera-video:1.3.0] C:\Users\User\.gradle\caches\transforms-3\87266b815f02ce10c329ed1c74422d10\transformed\camera-video-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\User\.gradle\caches\transforms-3\8c730deb61f4866cf747dd6a25e4a631\transformed\camera-lifecycle-1.3.0\AndroidManifest.xml:2:1-7:12
@@ -116,8 +116,8 @@ ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:10:22-62
 application
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:12:5-56:19
-INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:12:5-56:19
+ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:12:5-53:19
+INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:12:5-53:19
 MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\User\.gradle\caches\transforms-3\a15032d31d90de9f0d04acf437657e1e\transformed\camera-camera2-1.3.0\AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\User\.gradle\caches\transforms-3\a15032d31d90de9f0d04acf437657e1e\transformed\camera-camera2-1.3.0\AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\User\.gradle\caches\transforms-3\c3bacf0fe42eecc6b6c2ea19ae0b0083\transformed\camera-core-1.3.0\AndroidManifest.xml:23:5-34:19
@@ -220,42 +220,36 @@ ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:35:13-59
-activity#com.example.batikku.view.login.RegisterActivity
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:37:9-39:40
-	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:39:13-37
-	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:38:13-56
 activity#com.example.batikku.view.login.LoginActivity
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:40:9-42:39
+ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:37:9-39:39
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:38:13-53
+activity#com.example.batikku.SplashActivity
+ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:40:9-49:20
 	android:exported
 		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:42:13-36
-	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:41:13-53
-activity#com.example.batikku.SplashActivity
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:43:9-52:20
-	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:45:13-36
 	android:theme
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:46:13-56
+		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:44:13-43
+		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:41:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:47:13-51:29
+ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:50:17-77
+ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:50:27-74
+		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:47:27-74
 activity#com.example.batikku.view.main.MainActivity
-ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:53:9-55:39
+ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:50:9-52:39
 	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:55:13-36
+		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:54:13-51
+		ADDED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml:51:13-51
 uses-sdk
 INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\User\AndroidStudioProjects\MD\app\src\main\AndroidManifest.xml

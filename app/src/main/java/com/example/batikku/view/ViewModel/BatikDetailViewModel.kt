@@ -1,5 +1,6 @@
 package com.example.batikku.view.ViewModel
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -24,11 +25,13 @@ class BatikDetailViewModel : ViewModel() {
                     _batikDetail.value = response.body()
                 } else {
                     // Handle error response
+                    Log.e("BatikDetailViewModel", "Error: ${response.errorBody()?.string()}")
                 }
             }
 
             override fun onFailure(call: Call<ResponseBatikDetail>, t: Throwable) {
                 // Handle network failure
+                Log.e("BatikDetailViewModel", "Failure: ${t.message}", t)
             }
         })
     }

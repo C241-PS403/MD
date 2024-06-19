@@ -5,7 +5,9 @@
     <color name="brownish">#CF8C50</color>
     <color name="cream">#D3B398</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="AlrRegistered">Already Registred , Sign In !</string>
     <string name="ListBatik">List Batik</string>
+    <string name="NotRegistered">Not Registered Yet, Sign Up!</string>
     <string name="ScanBatik">Scan Batik</string>
     <string name="SignIn">Sign In</string>
     <string name="SignUp">Sign Up</string>

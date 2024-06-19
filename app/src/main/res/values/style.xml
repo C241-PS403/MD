@@ -12,4 +12,22 @@
     <style name="button_main">
         <item name="color">@color/brown</item>
     </style>
+
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/brownish</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="CustomTextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">#494949</item>
+        <item name="android:hint">@string/uname</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
 </resources>

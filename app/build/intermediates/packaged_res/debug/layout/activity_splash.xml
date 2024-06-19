@@ -38,7 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/slogan" />
+        app:srcCompat="@drawable/slogo" />
 
     <ProgressBar
         android:id="@+id/progressBar"

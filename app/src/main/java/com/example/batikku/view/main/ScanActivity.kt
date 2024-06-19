@@ -7,6 +7,9 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.PickVisualMediaRequest
@@ -16,7 +19,9 @@ import androidx.core.net.toUri
 import com.example.batikku.R
 import com.example.batikku.databinding.ActivityScanBinding
 import com.example.batikku.view.Api.PredictApiConfig
+import com.example.batikku.view.HashMap.BatikMapping
 import com.example.batikku.view.Model.PredictResponse
+import com.example.batikku.view.login.LoginActivity
 import com.example.batikku.view.main.CameraActivity.Companion.CAMERAX_RESULT
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
@@ -30,7 +35,8 @@ import java.io.FileNotFoundException
 class ScanActivity : AppCompatActivity() {
     private lateinit var binding: ActivityScanBinding
     private lateinit var namabatik: TextView
-
+    private lateinit var batikMapping: BatikMapping
+    private var batikName: String? = null
 
     private var currentImageUri: Uri? = null
 
@@ -41,7 +47,7 @@ class ScanActivity : AppCompatActivity() {
             if (isGranted) {
                 Toast.makeText(this, "Permission request granted", Toast.LENGTH_LONG).show()
             } else {
-                Toast.makeText(this, "Permission request denied", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Permission request Approved", Toast.LENGTH_LONG).show()
             }
         }
 
@@ -56,7 +62,7 @@ class ScanActivity : AppCompatActivity() {
         binding = ActivityScanBinding.inflate(layoutInflater)
         setContentView(binding.root)
         namabatik = findViewById(R.id.namaBatik)
-
+        batikMapping = BatikMapping()
 
         if (!allPermissionsGranted()) {
             requestPermissionLauncher.launch(REQUIRED_PERMISSION)
@@ -65,7 +71,11 @@ class ScanActivity : AppCompatActivity() {
         binding.camButton.setOnClickListener { startCameraX() }
         binding.galButton.setOnClickListener { startGallery() }
         binding.predictButton.setOnClickListener { sendImageForPrediction() }
+        val detButton: Button = findViewById(R.id.detButton)
 
+        detButton.setOnClickListener {
+            moveToDetailBatikByName()
+        }
     }
 
     private fun startGallery() {
@@ -103,24 +113,20 @@ class ScanActivity : AppCompatActivity() {
             binding.ivPreview.setImageURI(it)
         }
     }
+
     private fun sendImageForPrediction() {
         currentImageUri?.let { uri ->
             try {
-
                 val inputStream = contentResolver.openInputStream(uri)
                     ?: throw FileNotFoundException("File not found")
-
 
                 val tempFile = File.createTempFile("temp_image", ".jpg", cacheDir)
                 tempFile.outputStream().use { outputStream ->
                     inputStream.copyTo(outputStream)
                 }
 
-
                 val requestFile = tempFile.asRequestBody("image/*".toMediaTypeOrNull())
-
                 val imagePart = MultipartBody.Part.createFormData("file", tempFile.name, requestFile)
-
 
                 PredictApiConfig.getPredictService().predictBatikName(imagePart)
                     .enqueue(object : Callback<PredictResponse> {
@@ -132,6 +138,7 @@ class ScanActivity : AppCompatActivity() {
                                 Log.d("TAG", "onResponse: ${response.body()}")
                                 val predictedBatikName = response.body()?.name ?: "Unknown"
                                 Log.d("Predicted Batik", "predicted batik: $predictedBatikName")
+                                batikName = predictedBatikName
                                 namabatik.text = predictedBatikName
                                 Toast.makeText(
                                     this@ScanActivity,
@@ -158,7 +165,52 @@ class ScanActivity : AppCompatActivity() {
         }
     }
 
+    private fun moveToDetailBatikByName() {
+        batikName?.let { name ->
+            val batikId = batikMapping.getBatikId(name)
+            if (batikId != null) {
+                val intent = Intent(this, DetailActivity::class.java).apply {
+                    putExtra("BATIK_ID", batikId)
+                }
+                startActivity(intent)
+            } else {
+                Toast.makeText(this, "Batik name not found in map. Please wait.", Toast.LENGTH_SHORT).show()
+            }
+        } ?: run {
+            Toast.makeText(this, "Batik name not yet predicted. Please wait.", Toast.LENGTH_SHORT).show()
+        }
+    }
+
     companion object {
         private const val REQUIRED_PERMISSION = Manifest.permission.READ_EXTERNAL_STORAGE
+    }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_logout -> {
+                performLogout()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+    private fun performLogout() {
+        // Contoh membersihkan shared preferences
+        val sharedPreferences = getSharedPreferences("user_prefs", MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        editor.clear()
+        editor.apply()
+
+        // Tampilkan pesan logout
+        Toast.makeText(this, "Logged out successfully", Toast.LENGTH_SHORT).show()
+
+        // Pindah ke LoginActivity
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }

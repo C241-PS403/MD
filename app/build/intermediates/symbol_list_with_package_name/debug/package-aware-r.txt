@@ -3161,6 +3161,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable slogan
+drawable slogo
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3559,6 +3560,7 @@ id performance
 id pin
 id position
 id postLayout
+id predictButton
 id pressed
 id progressBar
 id progressIndicator
@@ -3935,7 +3937,9 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
+string AlrRegistered
 string ListBatik
+string NotRegistered
 string ScanBatik
 string SignIn
 string SignUp
