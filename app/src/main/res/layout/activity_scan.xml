@@ -77,20 +77,36 @@
         tools:visibility="visible" />
 
     <Button
+        android:id="@+id/predictButton"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/brownish"
+        android:text="Analyze"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_preview"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <Button
         android:id="@+id/detButton"
         style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/brownish"
+        android:text="@string/detButton"
         android:textColor="@color/white"
         android:textSize="16sp"
-        android:text="@string/detButton"
-        android:backgroundTint="@color/brownish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/galButton"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/camButton"
         app:layout_constraintTop_toTopOf="@+id/iv_preview"
-        app:layout_constraintVertical_bias="0.848" />
+        app:layout_constraintVertical_bias="0.946" />
 
     <TextView
         android:id="@+id/namaBatik"

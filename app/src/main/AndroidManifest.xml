@@ -35,9 +35,6 @@
             android:name=".view.register.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".view.login.RegisterActivity"
-            android:exported="false" />
-        <activity
             android:name=".view.login.LoginActivity"
             android:exported="true" />
         <activity
